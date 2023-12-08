@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+
+
+header{
+    font-size: 20px;
+    padding-left: 40px;
+    color: #e04642;
+    font-family: bungee;
+  
+}
+
+
+
+.commtext{
+    font-size: 40px;
+    margin: 15px;
+}
+
+.commtext2{
+    font-size: 20px;
+    margin: 15px;
+    margin-top: 10px;
+}
+
+
+
+.home{
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.kidslogo{
+    height: 175px;
+    width: 175px;
+    border-radius: 10px;
+}
+
+
+
+.community{
+    display: flex;
+    align-items: center;
+}
+
+.join{
+    color: black;
+    font-size: 18px;
+    background-color:#e04642 ;
+    border-radius: 10px;
+    margin: 15px;
+    margin-top: 10px;
+    height: 50px;
+    width: 200px;
+
+}
+
+.home .birthday video{
+    
+  
+    height: 600px;
+    width: 600px;
+    
+}
+
+.steps{
+    color: #e04642;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+@media (width < 780px){
+    header{
+        padding-left: 20px;
+    }
+}
